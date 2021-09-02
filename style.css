@@ -1,0 +1,134 @@
+
+body
+{
+    
+ margin-left: 10%;
+ margin-right: 10%;
+
+}
+
+.heading{
+  display: flex;justify-content: space-between;
+}   
+.heading2{
+ padding: 20px;margin: 25%; display: inline-block; justify-content: center;
+ margin-top: 10px;
+}
+
+.card{
+  display: flex;justify-content: space-between;
+
+}
+.card3{
+  
+    display: flex;justify-content: space-between;
+  
+  
+}
+.card1{
+   color: brown; font-size: 30px;
+   padding-left: 5px;
+}
+
+.card2{
+  color: red;  text-decoration: line-through;  font-size: 25px;
+}
+.card4{
+  color: red;  text-decoration: line-through;  font-size: 25px;
+}
+
+.cardtext{
+  font-size: 30px;
+}
+.cardhr{
+  margin-left: 30px;
+}
+.align-left{ float: left; font-size:70px ;  }
+
+.align-right{ padding-top: 70px;}
+
+.bg-text{
+  color: red;
+  font-weight: bold;
+  border: 3px solid lightcoral;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.main{
+    
+  border: 3px solid lightpink;
+  border-radius: 20px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.main1{
+    
+  border: 3px solid lightpink;
+  border-radius: 20px;
+  height: 400px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+@media only screen  and (max-width: 700px)  {
+  .card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  .main{
+    margin: 5%;
+    border: 3px solid lightpink;
+    border-radius: 20px;
+    height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .card2{
+    
+    visibility: hidden;
+ }
+ .cardtext {
+  visibility: hidden;
+ }
+ .cardhr  {
+  visibility: hidden;
+
+ }
+ .cardcheck{
+  visibility: hidden;
+ }
+ .bg-text{
+  color: red;
+  font-weight: bold;
+  border: 3px solid lightcoral;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+ 
+}
