@@ -2,8 +2,9 @@
 body
 {
     
- margin-left: 10%;
- margin-right: 10%;
+ margin-left: 18%;
+ margin-right: 18%;
+ margin-top: 10%;
 
 }
 
@@ -15,6 +16,11 @@ body
  margin-top: 10px;
 }
 
+.task-add-icon{
+  color: red;
+   font-size:40px; 
+  
+}
 .card{
   display: flex;justify-content: space-between;
 
@@ -45,7 +51,7 @@ body
 }
 .align-left{ float: left; font-size:70px ;  }
 
-.align-right{ padding-top: 70px;}
+.align-right{ padding-top: 20px;}
 
 .bg-text{
   color: red;
@@ -76,6 +82,7 @@ a:hover {
   border: 3px solid lightpink;
   border-radius: 20px;
   height: 350px;
+  width: 20%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
 }
@@ -95,10 +102,58 @@ a:hover {
   height: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  visibility: hidden;
+ display: none;
  
 }
+button{
+  background-color:  red; 
+  color: white; 
+  border: 2px;
+  border-radius: 15px;
+}
 @media only screen  and (max-width: 700px)  {
+  body
+{
+    
+ margin-left: 3%;
+ margin-right: 3%;
+
+}
+p{
+  margin: 0px;
+  margin-top: 10px;
+ 
+}
+
+.align-left{ 
+  float: left; 
+  font-size:55px ; 
+  font-weight: bolder;
+}
+
+.task-list-style
+{
+  font-family: Arial;
+  font-weight: normal;
+  color: grey;
+}
+
+.align-right
+{ 
+  padding-top: 20px;
+}
+
+.task-add-icon{
+  color: red;
+   font-size:35px; 
+}
+.card1{
+  font-size: 20px;
+  color: grey;
+ 
+}
+
+
   .card{
     display: flex;
     justify-content: space-between;
@@ -107,23 +162,27 @@ a:hover {
   
   }
   .main{
+    padding: 3px;
     margin: 5%;
-    border: 3px solid lightpink;
-    border-radius: 20px;
-    height: 70px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
-
+    border: 1px solid lightpink;
+    border-radius: 10px;
+    height: 50px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+      text-align: left;
   }
   .main4{
+    padding: 3px;
      margin: 5%;
-    border: 3px solid lightpink;
-    border-radius: 20px;
-    height: 70px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
+    border: 1px solid lightpink;
+    border-radius: 10px;
+    
+    height: 50px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
     visibility: visible;
-
+    display: block;
+    width: 100%;
+    text-align: left;
   }
   .card2{
     
